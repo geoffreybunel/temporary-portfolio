@@ -1,7 +1,7 @@
 import React from "react";
 import { FadeIn } from "../ui";
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
 import { cn } from "@/lib/utils";
 
 const GalleryImage: React.FC<{
@@ -42,43 +42,38 @@ const About: React.FC = () => {
           About
         </h2>
         <div className="text-zinc-500 text-base font-normal leading-relaxed space-y-4">
-          <p>I&apos;m [Your Name]. [Add your location and brief intro here].</p>
+          <p>I&apos;m Geoffrey. Based in France, I am a JavaScript developer specialized in building modern web applications with React.</p>
           <p>
             <b className="text-zinc-600 font-semibold">
               {" "}
               Here&apos;s what I actually do:
             </b>{" "}
-            [Describe your main skills and expertise. What problems do you solve
-            for your clients? What makes you different from others in your
-            field?]
+            My core expertise lies in JavaScript, React, component-based architecture, and modern development tools. I focus on building scalable and maintainable applications, improving performance, and writing clean, readable code. I particularly enjoy solving problems related to application structure, data flow, and user interface responsiveness. What differentiates my approach is my attention to code quality, testing practices, and long-term maintainability.
           </p>
           <p>
-            [Add another paragraph about your approach, methodology, or
-            philosophy. What&apos;s your unique perspective on your work?]
+          My development philosophy is centered around simplicity, clarity, and continuous improvement. I believe that good software is not only functional but also understandable and maintainable by other developers. I aim to write modular code, reusable components, and well-structured logic that make projects easier to scale and evolve over time.
           </p>
           <p>
-            [Mention your achievements, community involvement, or notable
-            projects. Include numbers or metrics if you have them.]
+          During my training projects, I worked on real-world scenarios including debugging legacy applications, optimizing performance, implementing testing strategies, and redesigning front-end architectures. I also developed a reusable React modal component designed to replace an outdated jQuery solution, demonstrating my ability to modernize existing codebases and build reusable tools.
           </p>
           <p>
-            [Describe the results you deliver for clients or the impact of your
-            work.]
+          Through my work, I aim to deliver reliable, efficient, and maintainable front-end solutions. My goal is to help teams build applications that are fast, scalable, and enjoyable to use, while maintaining high standards of code quality and developer experience.
           </p>{" "}
           <br />
-          <Link
+          {/* <Link
             href="https://yourblog.com/"
             target="_blank"
             className="text-[#9D8BF5] underline hover:text-[#8e7ddf] font-medium hover:underline transition-colors"
           >
             [Optional: Add link to your blog, articles, or additional content]
-          </Link>{" "}
-          <p>
+          </Link>{" "} */}
+          {/* <p>
             [Add personal interests or hobbies that humanize you and make you
             more relatable.]
           </p>
           <p className="font-medium">
             [End with a strong statement about your work or value proposition.]
-          </p>
+          </p> */}
         </div>
       </FadeIn>
 
