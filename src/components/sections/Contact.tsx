@@ -14,9 +14,10 @@ const Contact: React.FC = () => {
             Get in touch
           </h2>
           <p className="text-zinc-600 text-base font-normal">
-            Add your contact description here. Describe what type of projects
-            you&apos;re looking for, your availability, and what makes working
-            with you valuable.
+            Available immediately. Feel free to reach out at geoffreybunel1999@gmail.com.
+            <br />
+            <br />
+            I&apos;m particularly interested in working on web applications, dashboards, or SaaS products where clean UI and good user experience matter.
           </p>
         </div>
       </FadeIn>
@@ -25,7 +26,7 @@ const Contact: React.FC = () => {
       <FadeIn delay={0.4}>
         <div className="flex md:flex-row flex-col  justify-center md:justify-start   items-center gap-4">
           <Link
-            href="mailto:your.email@example.com"
+            href="mailto:geoffreybunel1999@gmail.com"
             target="_blank"
             className="w-full md:w-auto"
           >
