@@ -14,8 +14,8 @@ const Hero: React.FC = () => {
         <FadeIn delay={0.2}>
           <Image
             className="w-24 h-24 rounded-full object-cover"
-            src="/img.jpg"
-            alt="Miraya Profile"
+            src="/profile-picture.jpg"
+            alt="Geoffrey Profile"
             width={96}
             height={96}
             priority

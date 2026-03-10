@@ -3,11 +3,11 @@ import {
   Header,
   Hero,
   About,
-  WorkExperience,
+  // WorkExperience,
   Footer,
   Contact,
   Projects,
-  Newsletter,
+  // Newsletter,
 } from "../components/sections";
 import { Container } from "@/components/ui";
 
@@ -24,10 +24,10 @@ export default function Home() {
         <Hero />
         <About />{" "}
         <hr className="w-full h-px max-md:max-w-[150px] mx-auto bg-zinc-200" />
-        <Newsletter />
-        <hr className="w-full h-px max-md:max-w-[150px] mx-auto bg-zinc-200" />
-        <WorkExperience />
-        <hr className="w-full h-px max-md:max-w-[150px] mx-auto bg-zinc-200" />
+        {/* <Newsletter /> */}
+        {/* <hr className="w-full h-px max-md:max-w-[150px] mx-auto bg-zinc-200" /> */}
+        {/* <WorkExperience /> */}
+        {/* <hr className="w-full h-px max-md:max-w-[150px] mx-auto bg-zinc-200" /> */}
         <Projects />
         <hr className="w-full h-px max-md:max-w-[150px] mx-auto bg-zinc-200" />
         <Contact />
