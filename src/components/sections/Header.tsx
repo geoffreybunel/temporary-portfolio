@@ -4,13 +4,13 @@ import Link from "next/link";
 import { motion, AnimatePresence } from "motion/react";
 import {
   Home,
-  Instagram,
+  // Instagram,
   Linkedin,
   Github,
-  Music2,
+  // Music2,
   Menu,
   X,
-  ScrollText,
+  // ScrollText,
 } from "lucide-react";
 import { cn } from "@/lib/utils/cn";
 import Cal from "./Cal";
@@ -71,35 +71,35 @@ const MobileSocialLink: React.FC<{
 
 const SOCIAL_LINKS = [
   {
-    href: "https://github.com/yourusername",
+    href: "https://github.com/geoffreybunel",
     icon: Github,
     label: "GitHub",
     size: 23,
     strokeWidth: 1.8,
   },
+  // {
+  //   href: "https://www.instagram.com/yourusername",
+  //   icon: Instagram,
+  //   label: "Instagram",
+  //   size: 23,
+  //   strokeWidth: 1.8,
+  // },
+  // {
+  //   href: "https://www.tiktok.com/@yourusername",
+  //   icon: Music2,
+  //   label: "TikTok",
+  //   size: 22,
+  //   strokeWidth: 1.8,
+  // },
+  // {
+  //   href: "https://yourblog.com/",
+  //   icon: ScrollText,
+  //   label: "Blog",
+  //   size: 23,
+  //   strokeWidth: 1.8,
+  // },
   {
-    href: "https://www.instagram.com/yourusername",
-    icon: Instagram,
-    label: "Instagram",
-    size: 23,
-    strokeWidth: 1.8,
-  },
-  {
-    href: "https://www.tiktok.com/@yourusername",
-    icon: Music2,
-    label: "TikTok",
-    size: 22,
-    strokeWidth: 1.8,
-  },
-  {
-    href: "https://yourblog.com/",
-    icon: ScrollText,
-    label: "Blog",
-    size: 23,
-    strokeWidth: 1.8,
-  },
-  {
-    href: "https://www.linkedin.com/in/yourusername",
+    href: "https://www.linkedin.com/in/geoffrey-bunel",
     icon: Linkedin,
     label: "LinkedIn",
     size: 23.5,
