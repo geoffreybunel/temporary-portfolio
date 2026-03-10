@@ -31,7 +31,7 @@ export default function Cal({
   return (
     <Button
       data-cal-namespace="15min"
-      data-cal-link="yourusername/15min"
+      data-cal-link="geoffreybunel/15min"
       data-cal-config='{"layout":"month_view","theme":"light"}'
       type="submit"
       variant={variant}
