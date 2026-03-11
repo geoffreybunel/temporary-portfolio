@@ -29,15 +29,6 @@ const Hero: React.FC = () => {
           </h1>
           <p className="text-zinc-600 text-base md:text-lg font-normal leading-relaxed">
           JavaScript developer specialized in React, I build modern, performant, and user-focused web applications.
-          <br />
-          <br />
-          Trained through the OpenClassrooms developer program, I have worked on real-world projects involving application architecture, performance optimization, testing strategies, and reusable component design.
-          <br />
-          <br />
-          I enjoy turning complex ideas into clean, maintainable code and intuitive user experiences. My approach combines strong attention to detail, problem-solving, and a constant drive to improve code quality.
-          <br />
-          <br />
-          Today, I’m looking to contribute to ambitious products where I can bring reliable front-end solutions and continue growing as a developer.
           </p>
         </FadeIn>
 

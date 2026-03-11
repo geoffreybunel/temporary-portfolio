@@ -42,15 +42,17 @@ const About: React.FC = () => {
           About
         </h2>
         <div className="text-zinc-500 text-base font-normal leading-relaxed space-y-4">
-          <p>I&apos;m Geoffrey, a JavaScript developer based in France, specializing in React and modern web applications.</p>
           <p>
-            My focus is on code quality, application structure, and long-term maintainability. I care about writing modular, readable code that other developers can understand and build on, not just code that works today.
+            I&apos;m Geoffrey, a JavaScript developer based in France, specializing in React and modern web applications.
           </p>
           <p>
-            During my training, I worked on real-world challenges: debugging legacy apps, optimizing performance, implementing testing strategies, and rebuilding front-end architectures. One project I&apos;m particularly proud of is a reusable React modal component built to replace an outdated jQuery solution - a small example of how I approach modernization: pragmatically, with reusability in mind.
+            My focus is on code quality, application structure, and long-term maintainability, writing modular, readable code that other developers can understand and build on.
           </p>
           <p>
-            I believe good front-end work is as much about clarity and structure as it is about functionality.
+            I&apos;ve worked on real-world challenges: debugging legacy apps, optimizing performance, implementing testing strategies, and rebuilding front-end architectures. One project I&apos;m particularly proud of is a reusable React modal component built to replace an outdated jQuery solution — a small example of how I approach modernization: pragmatically, with reusability in mind.
+          </p>
+          <p>
+            Today, I&apos;m looking to contribute to ambitious projects where I can bring reliable front-end solutions and continue growing as a developer.
           </p>{" "}
           <br />
           {/* <Link
