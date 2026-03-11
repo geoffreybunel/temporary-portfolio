@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     template: "%s | Geoffrey",
   },
   description:
-    "Add your professional description here. Describe your skills, experience, and what makes you unique in your field.",
+    "My core expertise lies in JavaScript, React, component-based architecture, and modern development tools. I focus on building scalable and maintainable applications, improving performance, and writing clean, readable code. I particularly enjoy solving problems related to application structure, data flow, and user interface responsiveness. What differentiates my approach is my attention to code quality, testing practices, and long-term maintainability.",
   keywords: [
     "junior frontend developer",
     "senior frontend dev",
