@@ -42,22 +42,15 @@ const About: React.FC = () => {
           About
         </h2>
         <div className="text-zinc-500 text-base font-normal leading-relaxed space-y-4">
-          <p>I&apos;m Geoffrey. Based in France, I am a JavaScript developer specialized in building modern web applications with React.</p>
+          <p>I&apos;m Geoffrey, a JavaScript developer based in France, specializing in React and modern web applications.</p>
           <p>
-            <b className="text-zinc-600 font-semibold">
-              {" "}
-              Here&apos;s what I actually do:
-            </b>{" "}
-            My core expertise lies in JavaScript, React, component-based architecture, and modern development tools. I focus on building scalable and maintainable applications, improving performance, and writing clean, readable code. I particularly enjoy solving problems related to application structure, data flow, and user interface responsiveness. What differentiates my approach is my attention to code quality, testing practices, and long-term maintainability.
+            My focus is on code quality, application structure, and long-term maintainability. I care about writing modular, readable code that other developers can understand and build on, not just code that works today.
           </p>
           <p>
-          My development philosophy is centered around simplicity, clarity, and continuous improvement. I believe that good software is not only functional but also understandable and maintainable by other developers. I aim to write modular code, reusable components, and well-structured logic that make projects easier to scale and evolve over time.
+            During my training, I worked on real-world challenges: debugging legacy apps, optimizing performance, implementing testing strategies, and rebuilding front-end architectures. One project I&apos;m particularly proud of is a reusable React modal component built to replace an outdated jQuery solution - a small example of how I approach modernization: pragmatically, with reusability in mind.
           </p>
           <p>
-          During my training projects, I worked on real-world scenarios including debugging legacy applications, optimizing performance, implementing testing strategies, and redesigning front-end architectures. I also developed a reusable React modal component designed to replace an outdated jQuery solution, demonstrating my ability to modernize existing codebases and build reusable tools.
-          </p>
-          <p>
-          Through my work, I aim to deliver reliable, efficient, and maintainable front-end solutions. My goal is to help teams build applications that are fast, scalable, and enjoyable to use, while maintaining high standards of code quality and developer experience.
+            I believe good front-end work is as much about clarity and structure as it is about functionality.
           </p>{" "}
           <br />
           {/* <Link
